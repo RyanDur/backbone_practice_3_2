@@ -5,7 +5,7 @@ window.Bbprac32 = {
   Routers: {},
   initialize: function() {
     new Bbprac32.Routers.Repos();
-    Backbone.history.start({pushState: true});
+    Backbone.history.start();
   }
 };
 

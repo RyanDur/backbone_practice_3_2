@@ -1,5 +1,7 @@
 Bbprac32::Application.routes.draw do
-  resources :repos
+  scope 'api' do
+    resources :repos
+  end
 
   root to: "main#index"
   get '*paths', to: "main#index"

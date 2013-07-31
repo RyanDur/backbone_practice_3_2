@@ -1,5 +1,5 @@
 Bbprac32.Collections.Repos = Backbone.Collection.extend({
-  url: 'repos',
+  url: '/api/repos',
   model: Bbprac32.Models.Repo,
 
   comparator: function(a,b) {

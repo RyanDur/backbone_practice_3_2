@@ -12,6 +12,6 @@ Bbprac32.Views.Repo = Backbone.View.extend({
   },
 
   description: function() {
-    Backbone.history.navigate("repos/" + this.model.get('id'), true);
+    Backbone.history.navigate("/repos/" + this.model.get('id'), true);
   }
 });

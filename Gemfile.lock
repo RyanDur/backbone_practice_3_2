@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/pivotal/jasmine-gem.git
+  revision: e8105401b6ed9d4b462bbbaf508ab7ac8a77a245
+  ref: e8105401b6ed9d4b462bbbaf508ab7ac8a77a245
+  specs:
+    jasmine (1.3.2)
+      jasmine-core (~> 1.3.1)
+      rack (~> 1.0)
+      rspec (>= 1.3.1)
+      selenium-webdriver (>= 0.1.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,12 +84,8 @@ GEM
     hike (1.2.3)
     httpauth (0.2.0)
     i18n (0.6.4)
-    jasmine (1.3.2)
-      jasmine-core (~> 1.3.1)
-      rack (~> 1.0)
-      rspec (>= 1.3.1)
-      selenium-webdriver (>= 0.1.3)
     jasmine-core (1.3.1)
+    jasmine-jquery-rails (1.5.6)
     journey (1.0.4)
     jquery-rails (2.0.2)
       railties (>= 3.2.0, < 5.0)
@@ -154,6 +161,8 @@ GEM
       multi_json (~> 1.0)
       rubyzip
       websocket (~> 1.0.4)
+    sinon-rails (1.7.3)
+      railties (>= 3.1)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -180,11 +189,13 @@ DEPENDENCIES
   backbone-on-rails (= 1.0.0.0)
   capybara (= 1.1.2)
   github_api
-  jasmine (= 1.3.2)
+  jasmine!
+  jasmine-jquery-rails
   jquery-rails (= 2.0.2)
   pg (= 0.12.2)
   rails (= 3.2.14)
   rspec-rails (= 2.11.0)
   sass-rails (= 3.2.5)
+  sinon-rails
   sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)

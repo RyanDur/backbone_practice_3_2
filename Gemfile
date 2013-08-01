@@ -9,7 +9,9 @@ gem 'rails', '3.2.14'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
-  gem 'jasmine', '1.3.2'
+  gem "jasmine", github: "pivotal/jasmine-gem", ref: "e8105401b6ed9d4b462bbbaf508ab7ac8a77a245"
+  gem 'sinon-rails'
+  gem 'jasmine-jquery-rails'
 end
 
 group :assets do
@@ -42,4 +44,4 @@ end
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+# gem 'debugger''
